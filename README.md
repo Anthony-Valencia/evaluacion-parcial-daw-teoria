@@ -1,5 +1,10 @@
 # Sistema de Gestión de Biblioteca Universitaria
 
+## Integrantes del equipo:
+
+- Hinojosa Yaranga Renzo Sebastián
+- Valencia Bernaola Andres Anthony
+
 ## Objetivo
 
 Implementar un sistema completo que cubra los dos perfiles de usuario:
