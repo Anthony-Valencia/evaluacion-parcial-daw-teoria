@@ -1,0 +1,12 @@
+import type { ReactNode } from 'react';
+interface Props { icon: ReactNode; title: string; description?: string; action?: ReactNode; }
+export default function EmptyState({ icon, title, description, action }: Props) {
+  return (
+    <div className="empty">
+      <div className="empty-icon">{icon}</div>
+      <h3 className="empty-title">{title}</h3>
+      {description && <p className="empty-desc">{description}</p>}
+      {action && <div className="empty-action">{action}</div>}
+    </div>
+  );
+}
