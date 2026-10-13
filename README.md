@@ -18,20 +18,24 @@ Implementar un sistema completo que cubra los dos perfiles de usuario:
 
 ### Hinojosa Yaranga Renzo Sebastián
 
-| Módulo | Descripción |
+Gestión de categorías y libros: 
+CRUD completo de categorías y libros con validación de ISBN único y stock entero. Persistencia en LocalStorage.
 
-| Gestión de categorías y libros | CRUD completo de categorías y libros con validación de ISBN único y stock entero. Persistencia en LocalStorage. |
-| Solicitud y préstamo de libros | Búsqueda por título/autor/ISBN/categoría, control de stock cero y actualización automática del inventario. |
+Solicitud y préstamo de libros:
+Búsqueda por título/autor/ISBN/categoría, control de stock cero y actualización automática del inventario.
 
 ---
 
 ### Valencia Bernaola Andrés Anthony
 
-| Módulo | Descripción |
+Gestión de usuarios:
+Registro con código universitario único, correo único, tipo (Estudiante/Docente) y validaciones de formulario.
 
-| Gestión de usuarios | Registro con código universitario único, correo único, tipo (Estudiante/Docente) y validaciones de formulario. |
-| Generación de comprobante digital | Comprobante con código único `PRE-YYYY-####`, datos del usuario, libro y fechas. Visualización y descarga en PDF. |
-| Historial de préstamos | Vista personal con filtros por estado, devolución con un clic y actualización automática del stock. |
+Generación de comprobante digital:
+Comprobante con código único `PRE-YYYY-####`, datos del usuario, libro y fechas. Visualización y descarga en PDF.
+
+Historial de préstamos:
+Vista personal con filtros por estado, devolución con un clic y actualización automática del stock.
 
 ---
 
